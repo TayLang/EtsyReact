@@ -1,0 +1,1 @@
+console.error("SyntaxError: /home/taylor/FrontEnd/Assignments/EtsyReact/src/scripts/views/detailview.js: Unexpected token, expected ( (27:0) while parsing file: /home/taylor/FrontEnd/Assignments/EtsyReact/src/scripts/views/detailview.js");
