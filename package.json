@@ -1,6 +1,9 @@
 {
   "name": "EtsyReact",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.1.4"
+  },
   "scripts": {
     "go": "npm run watch && npm run dev",
     "deploy": "git push origin master && git push heroku master",
@@ -48,6 +51,7 @@
     "ejs": "^2.4.2",
     "express": "^4.14.0",
     "express-session": "^1.14.0",
+    "google-maps-react": "^1.0.19",
     "jquery": "^3.0.0",
     "mongoose": "^4.5.3",
     "passport": "^0.3.2",

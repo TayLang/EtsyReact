@@ -21,9 +21,9 @@ var DetailView = React.createClass({
 	}
 })
 
-var Body = React.createClass({
+// var Body = React.createClass({
 
-	render : function
-})
+// 	render : function
+// })
 
 export default DetailView
