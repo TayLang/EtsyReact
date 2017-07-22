@@ -1,4 +1,4 @@
-* {
+* { 
 	font-family: Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
 }
@@ -18,4 +18,9 @@ h1 {
 	display: inline-block;
 	width: 25%;
 	vertical-align: top
+}
+
+.detailView * {
+	display: block;
+	
 }

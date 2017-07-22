@@ -16,7 +16,7 @@ var HomeView = React.createClass({
 		return (
 			<div className = 'content'>
 
-				<h1>Etsy React Clone</h1>
+				<h1>Etsy Clone in React</h1>
 				
 				<Body 
 					data = {this.props.collection}

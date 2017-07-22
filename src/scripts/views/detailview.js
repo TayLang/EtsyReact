@@ -14,16 +14,20 @@ var DetailView = React.createClass({
 		console.log(this.props.model)
 		return (
 			<div className="detailView">
-				<Body
-					data = {this.props.model} />
+				<p>{this.props.model.get("title")}</p>
+				<img src={this.props.model.get('MainImage').url_170x135} />
+				<a href="#home">Go Back</a>
+				<p>{this.props.model.get("description")}</p>
 			</div>
 		)
 	}
 })
 
-// var Body = React.createClass({
+ // var Body = React.createClass({
 
-// 	render : function
-// })
+ // 	render : function() {
+
+ // 	}
+ // })
 
 export default DetailView
